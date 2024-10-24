@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parking application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts/app.js" type="module"></script>
+</head>
+<body>
+    <header>College parking system</header>
+    <main>
+        <form action="" class="user">
+            <h1>User Registeration</h1>
+            <input type="text" placeholder="Name*" id="userName" required>
+            <input type="text" placeholder="Contact*" id="userContact" required pattern="[0-9]{10}">
+            <select name="" id="role">
+                <option selected disabled>--select---</option>
+                <option value="student">Student</option>
+                <option value="faculty">Faculty</option>
+            </select>
+            <input type="submit" placeholder="Register" id="saveUser">
+            
+        </form>
+        <form action="" class="vehicle">
+            <h1>Vehicle Registeration</h1>
+            <input type="text" placeholder="vehicle Id*" id="vehicleId" required>
+            <select name="" id="type">
+                <option selected disabled>---Vehicle Type---</option>
+                <option value="cycle">Cycle</option>
+                <option value="bike">Bike</option>
+                <option value="car">Car</option>
+            </select>
+            <input type="submit" placeholder="Register Vehicle" id="savevehicle">
+        </form>
+        <form action="" class="pass-choice">
+            
+        </form>
+        <section class="ticket">
+            
+            
+        </section>
+    </main>
+    <footer>&copy;copyright</footer>
+    
+</body>
+</html>
